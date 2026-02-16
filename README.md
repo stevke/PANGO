@@ -79,3 +79,15 @@ sudo apt update && sudo apt install -y libcairo2 libpango-1.0-0 libpangoft2-1.0-
 sudo zypper refresh && sudo zypper install -y libcairo2 libpango-1_0-0 libgdk_pixbuf-2_0-0 libharfbuzz0 libfribidi0 fontconfig libffi-devel shared-mime-info dejavu-fonts liberation-fonts
 ```
 
+## Release notes template
+
+Za naredne GitHub release-ove koristi [RELEASE_NOTES_TEMPLATE.md](RELEASE_NOTES_TEMPLATE.md).
+
+Brži način:
+
+```bash
+./release.sh create v1.1.1
+# ili
+./release.sh edit v1.1.0
+```
+
