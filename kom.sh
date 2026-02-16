@@ -1,0 +1,2 @@
+#!
+python konvertor.py
